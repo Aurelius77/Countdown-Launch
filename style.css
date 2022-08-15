@@ -1,0 +1,100 @@
+body{
+    background-image:url('/images/bg-stars.svg');
+    background-color:  hsl(237, 18%, 59%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+ 
+#header{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time{
+    width: 10%;
+    margin: 10px;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+.timebox{
+    background-color:hsl(236, 21%, 26%);
+    color:  hsl(345, 95%, 68%);
+    text-align: center;
+    border-color:hsl(236, 21%, 26%) ;
+    border-style: solid;
+    width: 100%;
+    padding: 5px;
+}
+
+.text{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+
+#hills{
+    position: fixed;
+    bottom: 0%;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    bottom: 5%;
+    position: absolute;
+}
+
+.img{
+    margin: 7px;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    #header{
+        font-size: 15px;
+    }
+    
+    h1{
+        font-size: 15px;
+    }
+
+    .text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-height:500px) {
+    #header{
+        margin-top: 2%;
+    }
+
+    .container{
+        top: 30%;
+    }
+}
